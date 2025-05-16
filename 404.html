@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Переадресация...</title>
+    <script>
+      const target = "https://вышерадуги.рф";
+      const path = window.location.pathname + window.location.search + window.location.hash;
+      window.location.replace(target + path);
+    </script>
+  </head>
+  <body>
+    <p>Если вы не перенаправлены — <a href="https://вышерадуги.рф">нажмите сюда</a>.</p>
+  </body>
+</html>
